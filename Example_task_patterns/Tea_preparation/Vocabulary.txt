@@ -1,0 +1,10 @@
+Vocabulary 
+Tea preparation : 
+S - Start
+F - Finish
+1 - Add Hot Water
+2 - Add Tea Bag
+3 - Flavour extraction
+4 - Add Sugar
+5 - Serve
+
