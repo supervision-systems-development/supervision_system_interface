@@ -1,0 +1,18 @@
+Vocabulary
+Salad preparation: 
+
+S - Start
+1 - Place a Bowl
+2 - Add Spinach
+3 - Add Lettuce
+4 - Add Tomatoes
+5 - Add Cucumbers
+6 - Choose Dressing
+7 - Finish Adding Greens
+8 - Finish Adding Vegetables
+9 - Select Vinaigrette
+10 - Select Ranch
+11 - Prepare Dressing
+12 - Add Dressing
+14 - Eat Salad 
+F - Finish

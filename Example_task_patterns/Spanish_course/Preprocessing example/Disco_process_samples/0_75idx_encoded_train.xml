@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Process Map data exported from Fluxicon Disco (fluxicon.com/disco).  -->
+<!--  (c) 2025 Fluxicon, All Rights Reserved  -->
+<!--  Note: All durations are given in milliseconds.  -->
+<ProcessMap numNodes="3" nodeThreshold="0.0" edgeThreshold="0.75" discoVersion="4.0.8">
+	<Log numCases="644"/>
+	<Layout width="1.225584" height="1.2011"/>
+	<Nodes size="3">
+		<Node index="0" activity="5">
+			<Frequency total="615" case="615" start="2" end="0" maxRepetitions="1" caseCoverage="0.9549689440993789"/>
+			<Duration total="0" min="0" max="0" mean="0" median="0"/>
+			<Layout x="0.0" y="0.4042461" width="0.5727882" height="0.19149114"/>
+		</Node>
+		<StartNode index="1">
+			<Layout x="0.22911528" y="-4.8428774E-8" width="0.11455763" height="0.108234115"/>
+		</StartNode>
+		<EndNode index="2">
+			<Layout x="0.22911528" y="0.8917659" width="0.11455763" height="0.108234115"/>
+		</EndNode>
+	</Nodes>
+	<Edges size="3">
+		<Edge sourceIndex="0" targetIndex="0" type="aggregate">
+			<Frequency total="615" case="599" maxRepetitions="1" caseCoverage="0.9301242236024845"/>
+			<Duration total="1923750349052" min="0" max="2378357000" mean="3128049348" median="10776853"/>
+			<Layout curve="0.5779785,0.45456663,0.69493306,0.45200232,0.7930913,0.46714678,0.7930913,0.49999166,0.7930913,0.5328449,0.69493306,0.54798937,0.5779785,0.54542506" labelX="0.8965457" labelY="0.49999166"/>
+		</Edge>
+		<Edge sourceIndex="1" targetIndex="0" type="observed">
+			<Frequency total="2" case="2" maxRepetitions="1" caseCoverage="0.003105590062111801"/>
+			<Duration total="0" min="0" max="0" mean="0" median="0"/>
+			<Layout curve="0.2863941,0.11089838,0.2863941,0.17992672,0.2863941,0.31277165,0.2863941,0.40102404" labelX="0.38983083" labelY="0.25624013"/>
+		</Edge>
+		<Edge sourceIndex="0" targetIndex="2" type="observed">
+			<Frequency total="615" case="615" maxRepetitions="1" caseCoverage="0.9549689440993789"/>
+			<Duration total="0" min="0" max="0" mean="0" median="0"/>
+			<Layout curve="0.2863941,0.60121554,0.2863941,0.68846893,0.2863941,0.81770873,0.2863941,0.8867455" labelX="0.38983083" labelY="0.7437515"/>
+		</Edge>
+	</Edges>
+</ProcessMap>

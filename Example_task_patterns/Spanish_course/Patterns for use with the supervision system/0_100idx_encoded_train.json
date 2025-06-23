@@ -1,0 +1,58 @@
+[
+    {
+        "data": {
+            "id": "5",
+            "label": "5",
+            "function": "nseq"
+        },
+        "position": {
+            "x": 0.0,
+            "y": 2021.2305
+        }
+    },
+    {
+        "data": {
+            "id": -5,
+            "label": "S",
+            "function": "nseq"
+        },
+        "position": {
+            "x": 1145.5764,
+            "y": -0.00024214387
+        }
+    },
+    {
+        "data": {
+            "id": -7,
+            "label": "F",
+            "function": "nseq"
+        },
+        "position": {
+            "x": 1145.5764,
+            "y": 4458.8295
+        }
+    },
+    {
+        "data": {
+            "source": "5",
+            "target": "5"
+        }
+    },
+    {
+        "data": {
+            "source": "-5",
+            "target": "5"
+        }
+    },
+    {
+        "data": {
+            "source": "5",
+            "target": "-7"
+        }
+    },
+    {
+        "data": {
+            "sequence": null
+        }
+    }
+]

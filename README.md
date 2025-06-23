@@ -1,6 +1,10 @@
 # Automatic Supervision Application - An interface for a task supervision system. 
 
-This is an application that provides a user-friendly graphical user interface for a supervision syetem. The application ` ASAp_Automatic_Supervision_Application.ipynb ` launches the interface. The folder ` assets ` is required for proper functionality of the application. This application uses the supervision system in ` SupervisionSyetem.maude `, which has to be in the same folder as the application. 
+This is an application that provides a user-friendly graphical user interface for a supervision syetem. The application ` ASAp_Automatic_Supervision_Application.ipynb ` launches the interface. The folder ` assets ` is required for proper functionality of the application. This application uses the supervision system in ` SupervisionSystem.maude `, which has to be in the same folder as the application. 
+
+The folder ` Example task patterns ` contains patterns and sequences for other task examples that can be uploaded to the supervision system: Spanish course on a learning platform, tea preparation, salad preparation. The folder also contains various sequences that can also be uploaded to the supervision system. This folder also contains a script for converting DISCO .XML process maps to compatible .json files that can be uploaded to the supervision system. 
+
+The folder ` Screenshots ` contains screenshots for a sample task supervision. 
 
 # Launching the application
 
@@ -12,7 +16,7 @@ Several instances of the application can be opened while the python prorgram is 
 
 The interface is divided into two main parts – the interactive pattern area (on the left) and the control panel (on the right). 
 
-![The general user interface](https://github.com/supervision-systems-development/supervision_system_interface/blob/main/examples/generalUserInterface-6040.png)
+![The general user interface](https://github.com/supervision-systems-development/supervision_system_interface/blob/main/Images/generalUserInterface-6040.png)
 
 The **interactive pattern** area shows the current task model as an interactive pattern. For convenience, pattern nodes can be dragged to any position on the interactive area in order to make the pattern more user-friendly. Similarly, patterns can be selected (by a mouse click) and deselected (by a click) in order to make the application more explainable. 
 
